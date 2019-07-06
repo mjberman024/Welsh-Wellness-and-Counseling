@@ -19,6 +19,7 @@ a:hover {
   justify-content: space-evenly;
   margin-bottom: 10px;
   flex: 1;
+  font-size: 2em;
 }
 img {
   flex: 1;

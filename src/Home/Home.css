@@ -1,0 +1,16 @@
+.headshot {
+  width: 40vh;
+  border-radius: 80%;
+}
+
+.about {
+  display: flex;
+  margin: 5vw 10vw;
+}
+
+.about_summary {
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
