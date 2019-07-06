@@ -3,13 +3,17 @@ import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import About from './About';
-import Home from './Home';
+import Home from './Home/Home';
+import Navbar from './Navbar/Navbar';
+import Contact from './Contact';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Switch>
         <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/" component={Home} />
       </Switch>
       {/* <a href="/about">about me</a> */}

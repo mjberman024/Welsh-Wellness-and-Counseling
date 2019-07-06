@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  transform: scale(1.2);
+}
+
+.navbar {
+  background-color: lightblue;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  flex: 1;
+}
+img {
+  flex: 1;
+}

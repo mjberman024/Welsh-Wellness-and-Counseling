@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import history from './history';
+// import { Link } from 'react-router-dom';
 
 export default class About extends Component {
   componentDidMount() {}
@@ -12,7 +13,9 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.goHome}>click me to go home</button>
+        About Erin!
+        {/* <Link to="/">Click me to go home</Link> */}
+        {/* <button onClick={this.goHome}>click me to go home</button> */}
       </div>
     );
   }
