@@ -6,6 +6,8 @@ import About from './About';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Contact from './Contact';
+import Client_forms from './Client_forms/Client_forms';
+import Services from './Services';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/about" component={About} />
+        <Route exact path="/services" component={Services} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/client_forms" component={Client_forms} />
         <Route exact path="/" component={Home} />
       </Switch>
       {/* <a href="/about">about me</a> */}

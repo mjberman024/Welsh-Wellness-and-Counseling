@@ -5,7 +5,7 @@ import './Navbar.css';
 export default function Navbar() {
   return (
     <div className="navbar">
-      <img alt="Erin Logo" />
+      <img src="logo.png" alt="Erin Logo" className="logo" />
       <div className="links">
         <Link to="/">Welcome</Link>
         <Link to="/about">About</Link>

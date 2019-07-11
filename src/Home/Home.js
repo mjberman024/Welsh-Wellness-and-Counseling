@@ -15,7 +15,7 @@ export default class Home extends Component {
       <div className="about">
         <img
           className="headshot"
-          src="https://welsh-wellness.s3.amazonaws.com/headshot.JPG"
+          src="https://welsh-wellness.s3.amazonaws.com/images/headshot.JPG"
           alt="Erin headshot"
         />
         <div className="about_summary">
