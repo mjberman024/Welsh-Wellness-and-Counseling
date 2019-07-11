@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Welsh-Wellness-and-Counseling/precache-manifest.006708cb21f9dff842488c59bcfddea7.js"
+  "/Welsh-Wellness-and-Counseling/precache-manifest.957a7b33abb03b6e613010b49e72db42.js"
 );
 
 self.addEventListener('message', (event) => {
