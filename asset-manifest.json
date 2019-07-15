@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d3cfcb0.chunk.css",
-    "main.js": "/static/js/main.f349a407.chunk.js",
-    "main.js.map": "/static/js/main.f349a407.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.7e7c0f31.chunk.js": "/static/js/2.7e7c0f31.chunk.js",
-    "static/js/2.7e7c0f31.chunk.js.map": "/static/js/2.7e7c0f31.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b351948c51e39f819ef42cd5fe43f365.js": "/precache-manifest.b351948c51e39f819ef42cd5fe43f365.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3d3cfcb0.chunk.css.map": "/static/css/main.3d3cfcb0.chunk.css.map"
+    "main.css": "/Welsh-Wellness-and-Counseling/static/css/main.3d3cfcb0.chunk.css",
+    "main.js": "/Welsh-Wellness-and-Counseling/static/js/main.eff95c0a.chunk.js",
+    "main.js.map": "/Welsh-Wellness-and-Counseling/static/js/main.eff95c0a.chunk.js.map",
+    "runtime~main.js": "/Welsh-Wellness-and-Counseling/static/js/runtime~main.fe44ce6f.js",
+    "runtime~main.js.map": "/Welsh-Wellness-and-Counseling/static/js/runtime~main.fe44ce6f.js.map",
+    "static/js/2.7e7c0f31.chunk.js": "/Welsh-Wellness-and-Counseling/static/js/2.7e7c0f31.chunk.js",
+    "static/js/2.7e7c0f31.chunk.js.map": "/Welsh-Wellness-and-Counseling/static/js/2.7e7c0f31.chunk.js.map",
+    "index.html": "/Welsh-Wellness-and-Counseling/index.html",
+    "precache-manifest.2744ac3ad1a65c266de359e2f6763a91.js": "/Welsh-Wellness-and-Counseling/precache-manifest.2744ac3ad1a65c266de359e2f6763a91.js",
+    "service-worker.js": "/Welsh-Wellness-and-Counseling/service-worker.js",
+    "static/css/main.3d3cfcb0.chunk.css.map": "/Welsh-Wellness-and-Counseling/static/css/main.3d3cfcb0.chunk.css.map"
   }
 }
