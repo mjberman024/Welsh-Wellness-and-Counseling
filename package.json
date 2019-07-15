@@ -2,7 +2,7 @@
   "name": "wwc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mjberman024.github.io/Welsh-Wellness-and-Counseling/",
+  "homepage": "https://mjberman024.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "history": "^4.9.0",
