@@ -7,7 +7,7 @@ import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Contact from './Contact';
 import Client_forms from './Client_forms/Client_forms';
-import Services from './Services';
+import Services from './Services/Services';
 
 function App() {
   return (

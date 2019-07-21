@@ -12,7 +12,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="about">
+      <div className="welcome">
         <img
           className="headshot"
           src="https://welsh-wellness.s3.amazonaws.com/images/headshot.JPG"

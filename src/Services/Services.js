@@ -1,8 +1,9 @@
 import React from 'react';
+import './Services.css';
 
 export default function Services() {
   return (
-    <div>
+    <div id="services">
       <h2>Services</h2>
       <p>A treatment that is as unique as your situation</p>
       <p>
@@ -30,7 +31,7 @@ export default function Services() {
         Erin provides therapeutic counseling that addresses, but is not limited
         to, the following areas:
       </p>
-      <ul>
+      <ul id="service_list">
         <li>Anxiety</li>
         <li>Depression</li>
         <li>Communication Difficulties</li>
