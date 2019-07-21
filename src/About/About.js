@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import history from './history';
-// import { Link } from 'react-router-dom';
+import history from '../history';
+import './About.css';
 
 export default class About extends Component {
   componentDidMount() {}
@@ -13,11 +13,18 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <h2>The Therapist</h2>
-        <p>
-          Erin is a Licensed Professional Counselor and certified school
-          counselor at the Jemicy School. She has been practicing since 2012.
-        </p>
+        <div className="about">
+          <img
+            className="therapist_image"
+            src="https://welsh-wellness.s3.amazonaws.com/images/erin_about.jpg"
+            alt="Erin Therapist"
+          />
+          <div className="about_statement">
+            <p id="header">The Therapist</p>
+            Erin is a Licensed Professional Counselor and certified school
+            counselor at the Jemicy School. She has been practicing since 2012.
+          </div>
+        </div>
         <p>
           She has provided counseling services for children, adolescents,
           caregivers, families struggling to conceive, families who have

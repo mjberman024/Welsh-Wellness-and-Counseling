@@ -9,7 +9,7 @@ export default function Client_forms() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Authorization to release form
+        Authorization to Release Form
       </a>
       <br />
       <a
@@ -18,7 +18,7 @@ export default function Client_forms() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Consent for treatment
+        Consent for Treatment
       </a>
       <br />
       <a

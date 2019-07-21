@@ -1,0 +1,28 @@
+.about {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+.about_statement {
+  flex: 1;
+  font-size: 2em;
+  margin: 2em;
+}
+
+.therapist_image {
+  flex: 1;
+  width: 40vh;
+  height: auto;
+  border-radius: 20%;
+  /* margin: 10vh; */
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    flex-direction: column;
+  }
+  .about_statement {
+    font-size: 1em;
+    font-weight: 500;
+  }
+}

@@ -5,13 +5,17 @@ a {
   font-weight: 500;
 }
 a:hover {
-  color: blue;
   transform: scale(1.2);
   font-family: 'AppleGothic';
 }
+.active {
+  border-bottom: 2px black solid;
+}
+
 .logo {
   flex: 1;
-  width: 40vw;
+  /* width: 40vw; */
+  height: 40%;
   align-self: center;
   margin-top: 30px;
 }
@@ -30,4 +34,15 @@ a:hover {
 }
 img {
   flex: 1;
+}
+@media only screen and (max-width: 1000px) {
+  .logo {
+    transform: scale(0.6);
+  }
+  .navbar {
+    font-size: 0.6em;
+  }
+  a:hover {
+    transform: scale(1.1);
+  }
 }
