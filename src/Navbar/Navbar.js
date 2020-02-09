@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="navbar">
       <img src="logo.png" alt="Erin Logo" className="logo" />
       <div className="links">
-        <NavLink exact activeClassName="active" to="/">
+        <NavLink as={Link} exact activeClassName="active" to="/">
           Welcome
         </NavLink>
         <NavLink activeClassName="active" to="/about">
