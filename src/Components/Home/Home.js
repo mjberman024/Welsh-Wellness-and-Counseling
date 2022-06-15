@@ -1,15 +1,7 @@
-import React, { Component } from 'react';
-import history from '../history';
-import './Home.css';
+import React, { Component } from "react";
+import "./Home.css";
 
 export default class Home extends Component {
-  componentDidMount() {}
-
-  goHome = e => {
-    e.preventDefault();
-    history.push('/about');
-  };
-
   render() {
     return (
       <div className="welcome">
