@@ -1,0 +1,30 @@
+export const skills1 = [
+  "Anxiety",
+  "Children struggling with divorce",
+  "Communication Difficulties",
+  "Conflict resolution",
+  "Cutting",
+  "Depression",
+  "Exposure therapy",
+  "Family counseling",
+  "Gender identity /sexual identity/LGBTQ",
+  "Generalized anxiety",
+  "Impulsivity/focus/ADHD",
+  "Lack of Coping Skills",
+  "Learning differences",
+];
+
+export const skills2 = [
+  "Low Self-esteem",
+  "Obsessive compulsive disorder (OCD)",
+  "Parenting support",
+  "Perinatal/ postpartum depression",
+  "Relationship Struggles",
+  "School related concerns",
+  "Sensory disorders",
+  "Social Skills Challenges",
+  "Stress management",
+  "Suicidal ideation",
+  "Work and career issues",
+  "Working with families who have children with genetic disorder",
+];
