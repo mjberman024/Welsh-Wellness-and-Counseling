@@ -1,12 +1,23 @@
+p {
+  margin-bottom: 10px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
+.section {
+  padding: 30px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .bio {
   display: flex;
-  flex: 1;
   padding: 30px 10%;
   justify-content: center;
   align-items: center;
@@ -25,30 +36,69 @@
 
 .bio_blurb {
   display: flex;
-  /* flex: 1; */
   justify-content: flex-start;
   align-items: center;
-  text-align: justify;
+  text-align: start;
   font-size: 18px;
   font-weight: 500;
 }
 
 .creds {
+  padding: 0px 5%;
+
   background-image: linear-gradient(#4db4d7, #60a3d9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
 }
 .services {
+  padding-top: 24px;
   background-image: linear-gradient(#60a3d9, #d5eff7);
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.additional {
+  background-color: #d5eff7;
+  padding-top: 24px;
+}
+
+.topics {
+  padding-top: 24px;
+  background-color: #60a3d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .therapist_image {
-  flex: 1;
-  max-width: 30%;
-  margin: 0px;
-  /* height: auto; */
+  max-width: 30vw;
+  height: auto;
   border-radius: 20%;
+  flex: 3 1;
+}
+.form {
+  margin: 1%;
+  height: auto;
+  width: 12%;
 }
 
 .forms {
+  border-top: 4px white solid;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -61,7 +111,12 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 @media only screen and (max-width: 1100px) {
+  .approach {
+    display: flex;
+    flex-direction: column;
+  }
   .bio {
     flex-direction: column;
   }
@@ -75,5 +130,38 @@
   }
   .headshot_img {
     max-height: 40vh;
+  }
+  .content {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .form {
+    margin: 2%;
+    height: auto;
+    width: 22%;
+  }
+
+  .therapist_image {
+    max-width: unset;
+    width: 50vw;
+    height: auto;
+    border-radius: 20%;
+    flex: 3 1;
+  }
+  .topics {
+    flex-direction: column-reverse;
+  }
+
+  .servicesContent {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .form {
+    margin: 4%;
+    height: auto;
+    width: 42%;
   }
 }
