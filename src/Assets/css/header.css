@@ -1,24 +1,30 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#0076BE;
-    padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0076be;
+  padding: 10px 0px;
 }
 
 #title {
-    font-size: 40px;
-    color: whitesmoke;
+  font-size: 40px;
+  color: whitesmoke;
 }
 
 #name {
-    font-size: 20px;
-    color: whitesmoke;
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 #subtitle {
-    font-size: 15px;
-    color: whitesmoke;
-    /* margin-left: 30px; */
+  font-size: 15px;
+  color: whitesmoke;
+  /* margin-left: 30px; */
+}
+
+@media only screen and (max-width: 500px) {
+  #title {
+    font-size: 24px;
+  }
 }

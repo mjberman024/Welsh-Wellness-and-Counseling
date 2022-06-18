@@ -112,7 +112,14 @@ p {
   flex-wrap: wrap;
 }
 
+.approachContent {
+  margin-left: 24px;
+}
 @media only screen and (max-width: 1100px) {
+  .approachContent {
+    margin-left: 0px;
+    padding: 3%;
+  }
   .approach {
     display: flex;
     flex-direction: column;

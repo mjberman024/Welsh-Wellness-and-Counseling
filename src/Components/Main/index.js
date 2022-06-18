@@ -131,7 +131,7 @@ function Main() {
               alt="Erin Therapist"
             />
           </div>
-          <div>
+          <div className="approachContent">
             <h2 style={{ textAlign: "center" }}>Approach</h2>
             <p>A treatment that is as unique as your situation</p>
             <p>
