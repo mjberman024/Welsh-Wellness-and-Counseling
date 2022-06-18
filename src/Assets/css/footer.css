@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #0076BE;
+}
+
+.email {
+    color: white;
+    text-decoration: none;
+}
+
+.facebook {
+    color: white;
+    text-decoration: none;
+}
