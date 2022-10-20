@@ -1,27 +1,9 @@
 import React, { useState } from "react";
 import "../../Assets/css/main.css";
 import { skills1, skills2 } from "../../Constants";
-import forms from "../forms";
 
 function Main() {
   const [headshotLoaded, setHeadshotLoaded] = useState(false);
-
-  const renderForm = (item) => {
-    return (
-      <div key={item.title} className={"form"}>
-        <a href={item.pdf} download={item.title} alt={item.title}>
-          <div>
-            <img
-              alt={item.title}
-              src={item.image}
-              style={{ width: "100%", border: "1px black solid" }}
-            />
-            <p>{item.title}</p>
-          </div>
-        </a>
-      </div>
-    );
-  };
 
   return (
     <div className="main">
@@ -174,10 +156,6 @@ function Main() {
             Association).
           </p>
         </div>
-      </div>
-      <div className="forms">
-        <h1>Forms</h1>
-        <div className="formPdfs">{forms.map((item) => renderForm(item))}</div>
       </div>
     </div>
   );

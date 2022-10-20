@@ -9,10 +9,15 @@ function Footer() {
           Email Me
         </a>
       </p>
-      <p style={{ marginLeft: "30px" }}>
+      <p>
+        <a className="phone" href="tel:4433537479">
+          Call Me (443) 353-7479
+        </a>
+      </p>
+      <p>
         <a
           className="facebook"
-          href="https://www.facebook.com/welshwellnessandcounseling/?__tn__=%2Cd%2CP-R&eid=ARDzkoC_LyxjwfuVehZJ1VHG4xXhX2fQoVuNq1DEZkVMUCUlucIzA6EpLdX6y3-XXXna-vVLsYJPhYoj"
+          href="https://www.facebook.com/welshwellnessandcounseling"
           target="_blank"
           rel="noopener noreferrer"
         >
