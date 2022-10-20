@@ -1,27 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fbae0e3.chunk.css",
-    "main.js": "/static/js/main.660d0a59.chunk.js",
-    "main.js.map": "/static/js/main.660d0a59.chunk.js.map",
+    "main.css": "/static/css/main.fca60610.chunk.css",
+    "main.js": "/static/js/main.b9398253.chunk.js",
+    "main.js.map": "/static/js/main.b9398253.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.e9af6a4d.chunk.js": "/static/js/2.e9af6a4d.chunk.js",
-    "static/js/2.e9af6a4d.chunk.js.map": "/static/js/2.e9af6a4d.chunk.js.map",
+    "static/js/2.d92e53a5.chunk.js": "/static/js/2.d92e53a5.chunk.js",
+    "static/js/2.d92e53a5.chunk.js.map": "/static/js/2.d92e53a5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d7018cebf5a57ccf26ca2b0343aace18.js": "/precache-manifest.d7018cebf5a57ccf26ca2b0343aace18.js",
+    "precache-manifest.2d63e4b779259a27fbb00771d53b3486.js": "/precache-manifest.2d63e4b779259a27fbb00771d53b3486.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5fbae0e3.chunk.css.map": "/static/css/main.5fbae0e3.chunk.css.map",
-    "static/media/AUTHORIZATION TO RELEASE_EXCHANGE CONFIDENTIAL INFORMATION.pdf": "/static/media/AUTHORIZATION TO RELEASE_EXCHANGE CONFIDENTIAL INFORMATION.6d4b42d9.pdf",
-    "static/media/AUTHORIZATION TO RELEASE_EXCHANGE CONFIDENTIAL INFORMATION.jpg": "/static/media/AUTHORIZATION TO RELEASE_EXCHANGE CONFIDENTIAL INFORMATION.7dafad44.jpg",
-    "static/media/consent-for-treatment.pdf": "/static/media/consent-for-treatment.15b55abe.pdf",
-    "static/media/consent-for-treatment.jpg": "/static/media/consent-for-treatment.a30cfe30.jpg",
-    "static/media/hipaaclientrights.jpg": "/static/media/hipaaclientrights.1ed10fda.jpg",
-    "static/media/hipaaclientrights.pdf": "/static/media/hipaaclientrights.fd24a569.pdf",
-    "static/media/hipaaprivacypractices.jpg": "/static/media/hipaaprivacypractices.03f4b9b1.jpg",
-    "static/media/hipaaprivacypractices.pdf": "/static/media/hipaaprivacypractices.0ea7a2a1.pdf",
-    "static/media/intakeform.pdf": "/static/media/intakeform.8e66138d.pdf",
-    "static/media/intakeform.jpg": "/static/media/intakeform.9fd6aa6d.jpg",
-    "static/media/signaturesheetsign-offfortherapy.jpg": "/static/media/signaturesheetsign-offfortherapy.518ce2d3.jpg",
-    "static/media/signaturesheetsign-offfortherapy.pdf": "/static/media/signaturesheetsign-offfortherapy.59f8fed2.pdf"
+    "static/css/main.fca60610.chunk.css.map": "/static/css/main.fca60610.chunk.css.map"
   }
 }
