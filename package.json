@@ -2,10 +2,15 @@
   "name": "wwc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mjberman024.github.io/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "gh-pages": "^2.0.1",
     "next": "^14.2.5",
     "postcss": "^8.4.41",
     "react": "^18.3.1",
@@ -18,24 +23,5 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "typescript": "^5"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
